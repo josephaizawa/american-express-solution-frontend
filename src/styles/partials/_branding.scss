@@ -1,0 +1,32 @@
+$primary-color-bright-blue: rgb(66 97 171);
+$primary-color-deep-blue: rgb(19 25 65);
+$primary-color-white: rgb(255 255 255);
+$secondary-color-silver: rgb(130 135 141);
+$secondary-color-black: rgb(33 31 32);
+
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1280px;
+
+@font-face {
+  font-family: Guardian, Georgia, "Times New Roman", Times, serif;
+  src: url("../../assets/fonts/Guardian-Egyp-Web-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Guardian, Georgia, "Times New Roman", Times, serif;
+  src: url("../../assets/fonts/Guardian-Text-Egyp-Web-Med.ttf") format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Guardian, Georgia, "Times New Roman", Times, serif;
+  src: url("../../assets/fonts/Guardian-Egyp-Web-Semibold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Benton, Arial, Helvetica, sans-serif;
+  src: url("../../assets/fonts/BentonSans-Regular.ttf") format("ttf");
+  font-weight: 700;
+}
