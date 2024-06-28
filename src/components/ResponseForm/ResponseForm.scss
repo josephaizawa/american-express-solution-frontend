@@ -1,0 +1,68 @@
+@use "../../styles/partials/resets";
+@use "../../styles/partials/branding" as *;
+@use "../../styles/partials/mixins" as *;
+
+.container1 {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    @include regular;
+    margin-bottom: 1rem;
+  }
+}
+
+.two-factor-status-status {
+  &__title {
+    @include demi;
+  }
+
+  &__radios {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  &__radio {
+    margin-right: 0.5rem;
+  }
+
+  &__radio-label {
+    @include regular;
+    color: $primary-color-bright-blue;
+    margin-right: 5rem;
+
+    &:focus-within {
+      color: $secondary-color-black;
+    }
+  }
+}
+.preferences__form-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $secondary-color-silver;
+  padding: 1rem;
+
+  @include tablet {
+    // display: flex;
+    // flex-direction: row;
+    justify-content: flex-end;
+    // padding: 1rem;
+  }
+}
+
+.preferences__form-save-button {
+  background-color: $secondary-color-silver;
+  color: $primary-color-white;
+  border-radius: 20px;
+  width: 100%;
+  height: 2.25rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
